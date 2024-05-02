@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+.navbar{
+    background-color: #F5F5F5;
+}
+
+.navbar-brand::before{
+    content: url('imagenes/Dolce_Gusto.png');
+    margin-left: 2rem;
+}
+
+nav ul{
+    margin-right: 2rem;
+}
+
+nav ul li{
+    padding-left: 1rem;
+    font-size: 18px;
+    color: black;
+}
+
+header div{
+    text-align: center;
+    padding-bottom: 3rem;
+    background-color: #F5F5F5;
+}
+
+.img-header{
+    background-image: url(imagenes/Espuma_cafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-cafes{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 14px;
+}
+
+header div h1{
+    margin-bottom: 2.5rem;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 32px;
+    position: relative;
+}
+
+.fondo-h1{
+    position: absolute;
+    background-color: #E84926;
+    width: 300px;
+    height: 320px;
+    left: 29.7%;
+    transform: translateX(-29.7%);
+    margin-top: 1.5rem;
+}
+
+header div p{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+main{
+    padding-top: 6rem;
+    background-color: #F5F5F5;
+}
+
+.capsulas .card{
+    margin-bottom: 5rem;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.card .card-img-top{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5rem;
+}
+
+.card-title{
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.card-text{
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-precio{
+    text-align: center;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.card-body button{
+    background-color: #FFFFFF;
+    border: 2px #5c4844 solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    color: #5c4844;
+}
+
+.card-body button:hover{
+    background-color: #5c4844;
+    color: #FFFFFF;
+}
+
+.carrito{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.carrito-card{
+    background-color: #E84926;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 5rem 1rem;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.carrito h2{
+    font-size: 32px;
+    letter-spacing: 0.7px;
+}
+
+.carrito h2+p{
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+}
+
+.carrito p:last-of-type{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #dddddd;
+    height: 90px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}

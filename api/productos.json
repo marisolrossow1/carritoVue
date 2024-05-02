@@ -1,0 +1,52 @@
+{
+    "capsulas": [
+        {
+            "id": 1,
+            "nombre": "ESPRESSO",
+            "precio": 10946,
+            "img": "imagenes/capsulas_espresso.webp",
+            "descripcion": "Delicado y afrutado",
+            "categoria": "Café negro"
+        },
+        {
+            "id": 2,
+            "nombre": "LUNGO",
+            "precio": 9457,
+            "img": "imagenes/capsulas_lungo.webp",
+            "descripcion": "Equilibrado y Tostado",
+            "categoria": "Café negro"
+        },
+        {
+            "id": 3,
+            "nombre": "CAFÉ AU LAIT",
+            "precio": 10950,
+            "img": "imagenes/capsulas_aulait.webp",
+            "descripcion": "Equilibrado y Redondo",
+            "categoria": "Café cortado"
+        },
+        {
+            "id": 4,
+            "nombre": "CORTADO",
+            "precio": 9870,
+            "img": "imagenes/capsulas_cortado.webp",
+            "descripcion": "Intenso con toque de leche",
+            "categoria": "Café cortado"
+        },
+        {
+            "id": 5,
+            "nombre": "LATTE MACCHIATO",
+            "precio": 12100,
+            "img": "imagenes/capsulas_macchiato.webp",
+            "descripcion": "Suave y Voluptuoso",
+            "categoria": "Café con leche"
+        },
+        {
+            "id": 6,
+            "nombre": "CAPPUCCINO",
+            "precio": 12450,
+            "img": "imagenes/capsulas_cappuccino.webp",
+            "descripcion": "Extra cremoso",
+            "categoria": "Café con leche"
+        }
+    ]
+}
